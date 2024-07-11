@@ -4,6 +4,6 @@ while True:
     if string=='exit':
         break
     strings.append(string)
-word_counts=[len(string.split())for string in strings]
-print("word counts:",word_counts)
-  
+    stripped_strings=[string.replace(" ","")for string in strings]
+    print("strings without whitespace:",stripped_strings) 
+

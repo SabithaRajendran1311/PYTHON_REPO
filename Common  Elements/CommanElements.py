@@ -7,3 +7,4 @@ if set1.intersection(set2):
 else:
     print("No common elements")
 
+ 
